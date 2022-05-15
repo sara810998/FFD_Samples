@@ -1,0 +1,34 @@
+/******************************************************************************
+ * Module: MPU6050
+ *
+ * File Name: MPU6050_Cfg.h
+ *
+ * Description: Header file for MPU6050 Module Configurations.
+ *
+ * Author: Eslam - Taha - Sara
+ ******************************************************************************/
+
+#ifndef INC_MPU6050_CFG_H_
+#define INC_MPU6050_CFG_H_
+
+
+#define MPU6050_NUMBER_MODULES_CONNECTED (1U)
+
+#define MPU6050_CHANNEL_ID_CONFIG (0U)
+
+#define MPU6050_CLOCK_SOURCE_CONFIG MPU6050_DEFAULT_CLOCK_SOURCE_CONFIG
+
+#define MPU6050_TEMP_SENSOR_ENABLE_CONFIG MPU6050_DEFAULT_TEMP_SENSOR_ENABLE_CONFIG
+
+#define MPU6050_SAMPLE_RATE_CONFIG MPU6050_DEFAULT_SAMPLE_RATE_CONFIG
+
+#define MPU6050_GYRO_RANGE_CONFIG MPU6050_DEFAULT_GYRO_RANGE_CONFIG
+
+#define MPU6050_ACCEL_RANGE_CONFIG MPU6050_DEFAULT_ACCEL_RANGE_CONFIG
+
+#define MPU6050_FSYNC_PIN_CONFIG MPU6050_DEFAULT_FSYNC_PIN_CONFIG
+
+#define MPU6050_DLPF_CONFIG MPU6050_DEFAULT_DLPF_CONFIG
+
+
+#endif /* INC_MPU6050_CFG_H_ */
